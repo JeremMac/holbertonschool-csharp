@@ -14,7 +14,7 @@ class Program
                     i = 0;
                 }
                 Console.Write($"{j}{i}, ");
-                if (j + i == 17)
+                if (j == 9 && i == 8)
                 {
                     Console.Write("99\n");
                     break;
