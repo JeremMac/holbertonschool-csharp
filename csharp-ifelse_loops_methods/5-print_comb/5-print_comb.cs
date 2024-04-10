@@ -4,20 +4,21 @@ class Program
 {
     public static void Main(string[] args)
     {
-        for (int j = 0; j < 9; j++)
-        {
-            for (int i = 0; i < 10; i++)
+        int j = 0;
+        int i = 0;
+            for (i = 0; i < 11; i++)
             {
                 if (i == 10)
                 {
                     j++;
+                    i = 0;
                 }
                 Console.Write($"{j}{i}, ");
                 if (j + i == 17)
                 {
                     Console.Write("99\n");
+                    break;
                 }
             }
-        }
     }
 }
