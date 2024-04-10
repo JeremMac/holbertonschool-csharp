@@ -4,10 +4,11 @@
     {
         for (char letter = 'a'; letter <= 'z'; letter++)
         {
-            if (letter != 'e' && letter != 'q')
+            if (letter == 'e' || letter == 'q')
             {
-                Console.Write(letter);
+                continue;
             }
+            Console.Write(letter);
         }
     }
 }
