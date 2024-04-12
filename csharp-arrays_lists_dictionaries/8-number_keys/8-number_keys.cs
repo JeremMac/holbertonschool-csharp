@@ -5,9 +5,9 @@ class Dictionary
 {
     public static int NumberOfKeys(Dictionary<string, string> myDict)
     {
-        int keys = 0;
         if (myDict != null)
         {
+            int keys = 0;
             foreach(var key in myDict)
             {
                 keys++;
