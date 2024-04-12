@@ -12,7 +12,7 @@ class Dictionary
         string maxKey = "";
             foreach(KeyValuePair<string, int> item in myList)
             {
-                if (item.Value > max)
+                if (item.Value => max)
                 {
                     max = item.Value;
                     maxKey = item.Key;
