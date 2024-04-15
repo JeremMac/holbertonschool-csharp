@@ -10,14 +10,22 @@ class List
         {
             int compareVal = 0;
             int sum = 0;
-            for (int i = 0; i < myList.Count; i++)
+            foreach (int item in myList)
+            {
+                if (item != compareVal)
+                {
+                    compareVal = item;
+                    sum += item;
+                }
+            }
+            /*for (int i = 0; i < myList.Count; i++)
             {
                 if (myList[i] != compareVal)
                 {
                     compareVal = myList[i];
                     sum += myList[i];
                 }
-            }
+            }*/
             return sum;
         }
         return -1;
