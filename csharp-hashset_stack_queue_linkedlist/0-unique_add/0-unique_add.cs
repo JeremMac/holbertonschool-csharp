@@ -5,10 +5,10 @@ class List
 {
     public static int Sum(List<int> myList)
     {
+        int sum = 0;
         if (myList != null)
         {
             int compareVal = 0;
-            int sum = 0;
             foreach (int item in myList)
             {
                 if (item != compareVal)
@@ -25,8 +25,7 @@ class List
                     sum += myList[i];
                 }
             }*/
-            return sum;
         }
-        return -1;
+        return sum;
     }
 }
