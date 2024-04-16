@@ -7,7 +7,7 @@ class MyStack
     {
         Console.WriteLine($"Number of items: {aStack.Count}");
         Console.WriteLine($"Top item: {aStack.Peek()}");
-        if (aStack.Count <= 0)
+        if (aStack.Count <= 0 || aStack == null)
         {
             Console.WriteLine("Stack is empty");
         }
@@ -17,7 +17,6 @@ class MyStack
             while (aStack.Pop() != search)
             {
             }
-            aStack.Push(newItem);
         }
         else if (!aStack.Contains(search))
         {
