@@ -10,7 +10,7 @@ class LList
             return 0;
         }
         int firstNode = myLList.First.Value;
-        myLList.RemoveFirst();
+        myLList.Remove(myLList.First);
         return firstNode;
     }
 }
