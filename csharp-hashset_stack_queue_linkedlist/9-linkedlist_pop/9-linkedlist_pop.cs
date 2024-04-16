@@ -1,4 +1,4 @@
-﻿using Stystem;
+﻿using System;
 using System.Collections.Generic;
 
 class LList
@@ -10,7 +10,7 @@ class LList
             return 0;
         }
         int firstNode = myLList.First.Value;
-        myLList.Remove(myLList.First);
+        myLList.RemoveFirst();
         return firstNode;
     }
 }
