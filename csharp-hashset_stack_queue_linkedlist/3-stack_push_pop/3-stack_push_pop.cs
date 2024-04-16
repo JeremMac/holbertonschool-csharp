@@ -7,7 +7,7 @@ class MyStack
     {
         Console.WriteLine($"Number of items: {aStack.Count}");
         Console.WriteLine($"Top item: {aStack.Peek()}");
-        if (aStack.Count <= 0 || aStack == null)
+        if (aStack.Count == 0 || aStack == null)
         {
             Console.WriteLine("Stack is empty");
         }
