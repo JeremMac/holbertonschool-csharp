@@ -14,7 +14,7 @@ class List
                 count++;
             }
         }
-        catch (Exception e)
+        catch (ArgumentOutOfRangeException)
         {
 
         }
