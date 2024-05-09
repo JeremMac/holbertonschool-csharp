@@ -9,9 +9,9 @@ namespace Enemies
     {
         public int health;
 
-        public Zombie(int Health = 0)
+        public Zombie()
         {
-            health = Health;
+            health = 0;
         }
     }
 }
