@@ -10,6 +10,11 @@ public class Tests
     [Test]
     public void Test1()
     {
-        Assert.Pass();
+        int a = 5;
+        int b = 5;
+
+        output = MyMath.Operations.Add(a, b);
+        
+        Assert.That(output, Is.EqualTo(10));
     }
 }
