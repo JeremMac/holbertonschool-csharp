@@ -1,15 +1,21 @@
-﻿namespace MyMath;
+﻿using System;
 
-///<summary>
-///A class that contains the Add method.
-///</summary>
-public class Operations
+namespace MyMath
 {
-    ///<summary>
-    ///A method that adds two integers.
-    ///</summary>
-    public static int Add(int a, int b)
+    /// <summary>
+    ///A class that contains the Add method.
+    /// </summary>
+    public class Operations
     {
-        return a + b;
+        /// <summary>
+        /// A method that adds two integers.
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <returns></returns>
+        public static int Add(int a, int b)
+        {
+            return a + b;
+        }
     }
 }
