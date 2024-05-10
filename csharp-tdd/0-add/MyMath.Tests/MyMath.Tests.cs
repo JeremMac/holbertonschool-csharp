@@ -1,19 +1,19 @@
 using NUnit.Framework;
 
-namespace TestsMyMath.Tests
+namespace MyMath.Tests
 {
     [TestFixture]
-    public class Operations_test
+    public class OperationsTests
     {
         [Test]
-        public void AddTwoInt()
+        public void AddTwoNumberPositive()
         {
-            int a = 5;
-            int b = 5;
+            int a = 10;
+            int b = 10;
 
-            int output = MyMath.Operations.Add(a, b);
+            int result = MyMath.Operations.Add(a, b);
 
-            Assert.That(output, Is.EqualTo(10));
+            Assert.That(result, Is.EqualTo(20));
         }
     }
 }
