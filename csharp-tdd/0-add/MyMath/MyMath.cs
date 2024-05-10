@@ -3,16 +3,13 @@
 namespace MyMath
 {
     /// <summary>
-    ///A class that contains the Add method.
+    /// Represent The Operations Class.
     /// </summary>
     public class Operations
     {
         /// <summary>
-        /// A method that adds two integers.
+        /// Represent the function Add of two integers.
         /// </summary>
-        /// <param name="a"></param>
-        /// <param name="b"></param>
-        /// <returns></returns>
         public static int Add(int a, int b)
         {
             return a + b;
