@@ -3,10 +3,10 @@ using NUnit.Framework;
 namespace TestsMyMath.Tests
 {
     [TestFixture]
-    public class Tests
+    public class Operations_test
     {
         [Test]
-        public void Test1()
+        public void AddTwoInt()
         {
             int a = 5;
             int b = 5;
