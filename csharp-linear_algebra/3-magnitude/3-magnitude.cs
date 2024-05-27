@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _3_magnitude
+
 {
     class VectorMath
     {
