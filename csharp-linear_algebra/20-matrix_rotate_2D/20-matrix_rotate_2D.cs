@@ -3,32 +3,29 @@
 /// <summary>
 /// A class that contains the Rotate2D method.
 /// </summary>
-class MatrixMath
+public static class MatrixMath
 {
     /// <summary>
     /// A method that Rotate a 2D matrix.
     /// </summary>
     public static double[,] Rotate2D(double[,] matrix, double angle)
     {
-        int rows = matrix.GetLength(0);
-        int cols = matrix.GetLength(1);
-
-        if (rows != 2 || cols != 2)
-        {
+        // Vérifier que la matrice est carrée
+        if (matrix.GetLength(0) != matrix.GetLength(1))
             return new double[,] { { -1 } };
-        }
 
-        double[,] Radians = {{Math.Cos(angle), Math.Sin(angle)}, {-1 * Math.Sin(angle), Math.Cos(angle)}};
-        double[,] result = new double[rows, cols];
+        int n = matrix.GetLength(0);
+        double[,] result = new double[n, n];
 
-        for (int i = 0; i < rows; i++)
+        double cos = Math.Cos(angle);
+        double sin = Math.Sin(angle);
+
+        for (int i = 0; i < n; i++)
         {
-            for (int j = 0; j < cols; j++)
+            for (int j = 0; j < n; j++)
             {
-                for (int k = 0; k < cols; k++)
-                {
-                    result[i, j] += Math.Round(matrix[i, k] * Radians[k, j], 2);
-                }
+                // Appliquer la rotation à chaque élément de la matrice
+                result[i, j] = matrix[i, j] * cos - matrix[i, j] * sin;
             }
         }
 
