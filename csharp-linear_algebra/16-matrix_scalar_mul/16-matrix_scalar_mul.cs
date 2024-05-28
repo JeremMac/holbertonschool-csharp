@@ -10,19 +10,19 @@ class MatrixMath
     /// </summary>
     public static double[,] MultiplyScalar(double[,] matrix, double scalar)
     {
-        if (matrix == null)
+        if(matrix.GetLength(0) != 3 && matrix.GetLength(0) != 2)
         {
-            return new double[,] { { -1 }};
+            return new double[,] {{-1}};
         }
+
         int row = matrix.GetLength(0);
         int col = matrix.GetLength(1);
 
-        if ((row != 2 && col != 2)
-        || (row != 3 && col !=3))
-            {
-                return new double[,] { { -1 }};
-            }
-        
+         if (row < 1 || col < 1 || row > 3 || col > 3)
+        {
+            return new double[,] { { -1 } };
+        }
+
         double[,] result = new double[row, col];
         for (int i = 0; i < row; i++)
         {
