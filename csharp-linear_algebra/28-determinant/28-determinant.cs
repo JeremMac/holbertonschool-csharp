@@ -13,7 +13,7 @@ public static class MatrixMath
         // Vérifier que la matrice est 2D ou 3D
         int rows = matrix.GetLength(0);
         int cols = matrix.GetLength(1);
-        if (rows != cols || (rows != 2 && rows != 3))
+        if (rows != 2 && rows != 3)
             return -1;
 
         // Calculer le déterminant en fonction de la taille de la matrice
