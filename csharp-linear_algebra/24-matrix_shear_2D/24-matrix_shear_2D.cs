@@ -39,7 +39,7 @@ class MatrixMath
             for (int i = 0; i < row; i++)
             {
                 result[i, 0] = matrix[i, 0];
-                result[i, 1] = matrix[i, 1] + factor * matrix[i, 0] 
+                result[i, 1] = matrix[i, 1] + factor * matrix[i, 0]; 
             }
         }
         return result;
