@@ -5,6 +5,7 @@
 /// </summary>
 class MatrixMath
 {
+    
     /// <summary>
     /// A method that shears a 2D matrix with a given factor.
     /// </summary>
