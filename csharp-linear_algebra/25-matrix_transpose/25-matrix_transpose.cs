@@ -1,16 +1,23 @@
 ﻿using System;
 
-public static class MatrixMath
+/// <summary>
+/// 
+/// </summary>
+class MatrixMath
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public static double[,] Transpose(double[,] matrix)
     {
-        // Vérifier si la matrice est vide
-        if (matrix.Length == 0)
-            return new double[0, 0];
-
         // Obtenir les dimensions de la matrice
         int rows = matrix.GetLength(0);
         int cols = matrix.GetLength(1);
+        
+        if (rows == 0 && cols == 0)
+        {
+            return new double[,] {{}};
+        }
 
         // Créer la matrice transposée
         double[,] transposedMatrix = new double[cols, rows];
