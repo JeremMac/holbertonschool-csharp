@@ -20,6 +20,6 @@ class VectorMath
 
             return crossPod;
         }
-        return new double[] {-1};
+        return new double[] { -1 };
     }
 }
