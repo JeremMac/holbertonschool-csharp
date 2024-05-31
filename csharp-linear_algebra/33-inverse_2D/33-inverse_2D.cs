@@ -15,7 +15,7 @@ class MatrixMath
             return new double [,] {{-1}};
         }
 
-        double determinant = matrix[0,0] * matrix[1,1] - matrix[0,1] * matrix[1,0];
+        double determinant = matrix[0,0] * matrix[1,1] - matrix[1,0] * matrix[0,1];
 
         if (determinant == 0)
         {
@@ -24,10 +24,10 @@ class MatrixMath
 
         double[,] invertedMat = new double[2,2];
 
-        invertedMat[0,0] = matrix[1,1] * determinant;
-        invertedMat[1,0] = (-matrix[1,0]) * determinant;
-        invertedMat[0,1] = (-matrix[0,1]) * determinant;
-        invertedMat[1,1] = matrix[0,0] * determinant;
+        invertedMat[0,0] = Math.Round(matrix[1,1] * determinant, 2);
+        invertedMat[1,0] = Math.Round((-matrix[1,0]) * determinant, 2);
+        invertedMat[0,1] = Math.Round((-matrix[0,1]) * determinant, 2);
+        invertedMat[1,1] = Math.Round(matrix[0,0] * determinant, 2);
 
         return invertedMat;
     }
