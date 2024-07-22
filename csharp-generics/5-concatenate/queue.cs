@@ -82,20 +82,19 @@ public class Queue<T>
     /// Method to concatenate all values in the queue if it is of type String or Char.
     /// </summary>
     /// <returns>Concatanate string of all elements in the queue.</returns>
-    public string Concatenate()
+    public T Concatenate()
     {
         if (this.head == null)
         {
             Console.WriteLine("Queue is empty");
-            return null;
+            return default(T);
         }
 
         if (typeof(T) != typeof(string) && typeof(T) != typeof(char))
         {
             Console.WriteLine("Concatenate() is for a queue of Strings or Chars only.");
-            return null;
+            return default(T);
         }
-
 
         Node current = this.head;
         string result = "";
@@ -110,7 +109,7 @@ public class Queue<T>
             current = current.next;
         }
 
-        return result;
+        return (T)(object)result;
     }
 
     /// <summary>
