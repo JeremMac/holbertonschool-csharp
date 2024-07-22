@@ -1,0 +1,12 @@
+C:\Users\macal\Temporaire-csharp\4-print\obj\Debug\netcoreapp2.1\4-print.csprojAssemblyReference.cache
+C:\Users\macal\Temporaire-csharp\4-print\obj\Debug\netcoreapp2.1\4-print.csproj.CoreCompileInputs.cache
+C:\Users\macal\Temporaire-csharp\4-print\obj\Debug\netcoreapp2.1\4-print.AssemblyInfoInputs.cache
+C:\Users\macal\Temporaire-csharp\4-print\obj\Debug\netcoreapp2.1\4-print.AssemblyInfo.cs
+C:\Users\macal\Temporaire-csharp\4-print\bin\Debug\netcoreapp2.1\4-print.xml
+C:\Users\macal\Temporaire-csharp\4-print\bin\Debug\netcoreapp2.1\4-print.deps.json
+C:\Users\macal\Temporaire-csharp\4-print\bin\Debug\netcoreapp2.1\4-print.runtimeconfig.json
+C:\Users\macal\Temporaire-csharp\4-print\bin\Debug\netcoreapp2.1\4-print.runtimeconfig.dev.json
+C:\Users\macal\Temporaire-csharp\4-print\bin\Debug\netcoreapp2.1\4-print.dll
+C:\Users\macal\Temporaire-csharp\4-print\bin\Debug\netcoreapp2.1\4-print.pdb
+C:\Users\macal\Temporaire-csharp\4-print\obj\Debug\netcoreapp2.1\4-print.dll
+C:\Users\macal\Temporaire-csharp\4-print\obj\Debug\netcoreapp2.1\4-print.pdb

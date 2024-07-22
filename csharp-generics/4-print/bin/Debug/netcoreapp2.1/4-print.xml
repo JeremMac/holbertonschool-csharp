@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>4-print</name>
+    </assembly>
+    <members>
+        <member name="T:Queue`1">
+            <summary>
+            A class that contains the CheckType methode.
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Queue`1.CheckType">
+            <summary>
+            a methode that returns the Queue’s type.
+            </summary>
+            <returns> the name of the type </returns>
+        </member>
+        <member name="T:Queue`1.Node">
+            <summary>
+            a class that sets a new node.
+            </summary>
+        </member>
+        <member name="P:Queue`1.Node.value">
+            <summary>
+            The value of the node
+            </summary>
+        </member>
+        <member name="P:Queue`1.Node.next">
+            <summary>
+            the node that contains value
+            </summary>
+        </member>
+        <member name="M:Queue`1.Node.#ctor(`0)">
+            <summary>
+            Constructor that sets the value
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:Queue`1.#ctor">
+            <summary>
+            Constructor for Queue
+            </summary>
+        </member>
+        <member name="M:Queue`1.Enqueue(`0)">
+            <summary>
+            Method to add a new node to the end of the queue.
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:Queue`1.Print">
+            <summary>
+             a method that prints the queue, starting from the head.
+            </summary>
+        </member>
+        <member name="M:Queue`1.Peek">
+            <summary>
+            A method to that returns the value of the first node of the queue.
+            </summary>
+            <returns> Head's value or T's default value</returns>
+        </member>
+        <member name="M:Queue`1.Dequeue">
+            <summary>
+            Method to remove the first node in the queue and return its value
+            </summary>
+            <returns> the value of the removed node</returns>
+        </member>
+        <member name="M:Queue`1.Count">
+            <summary>
+            Method to return the number of nodes in the queue
+            </summary>
+            <returns> Int number of nodes.</returns>
+        </member>
+    </members>
+</doc>
