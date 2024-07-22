@@ -87,13 +87,13 @@ public class Queue<T>
         if (this.head == null)
         {
             Console.WriteLine("Queue is empty");
-            return default(T);
+            return null;
         }
 
         if (typeof(T) != typeof(string) && typeof(T) != typeof(char))
         {
             Console.WriteLine("Concatenate() is for a queue of Strings or Chars only.");
-            return default(T);
+            return null;
         }
 
         Node current = this.head;
