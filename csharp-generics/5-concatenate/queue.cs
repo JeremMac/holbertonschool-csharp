@@ -110,7 +110,7 @@ public class Queue<T>
             current = current.next;
         }
 
-        return result += "\n";
+        return result;
     }
 
     /// <summary>
