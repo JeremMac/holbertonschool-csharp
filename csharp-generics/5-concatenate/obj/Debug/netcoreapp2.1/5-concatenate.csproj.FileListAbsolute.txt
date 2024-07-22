@@ -1,0 +1,12 @@
+C:\Users\macal\Temporaire-csharp\5-concatenate\bin\Debug\netcoreapp2.1\5-concatenate.xml
+C:\Users\macal\Temporaire-csharp\5-concatenate\bin\Debug\netcoreapp2.1\5-concatenate.deps.json
+C:\Users\macal\Temporaire-csharp\5-concatenate\bin\Debug\netcoreapp2.1\5-concatenate.runtimeconfig.json
+C:\Users\macal\Temporaire-csharp\5-concatenate\bin\Debug\netcoreapp2.1\5-concatenate.runtimeconfig.dev.json
+C:\Users\macal\Temporaire-csharp\5-concatenate\bin\Debug\netcoreapp2.1\5-concatenate.dll
+C:\Users\macal\Temporaire-csharp\5-concatenate\bin\Debug\netcoreapp2.1\5-concatenate.pdb
+C:\Users\macal\Temporaire-csharp\5-concatenate\obj\Debug\netcoreapp2.1\5-concatenate.csprojAssemblyReference.cache
+C:\Users\macal\Temporaire-csharp\5-concatenate\obj\Debug\netcoreapp2.1\5-concatenate.csproj.CoreCompileInputs.cache
+C:\Users\macal\Temporaire-csharp\5-concatenate\obj\Debug\netcoreapp2.1\5-concatenate.AssemblyInfoInputs.cache
+C:\Users\macal\Temporaire-csharp\5-concatenate\obj\Debug\netcoreapp2.1\5-concatenate.AssemblyInfo.cs
+C:\Users\macal\Temporaire-csharp\5-concatenate\obj\Debug\netcoreapp2.1\5-concatenate.dll
+C:\Users\macal\Temporaire-csharp\5-concatenate\obj\Debug\netcoreapp2.1\5-concatenate.pdb
