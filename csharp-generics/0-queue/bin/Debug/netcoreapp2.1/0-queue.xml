@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>0-queue</name>
+    </assembly>
+    <members>
+        <member name="T:Queue`1">
+            <summary>
+            A class that contains the CheckType methode.
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Queue`1.CheckType">
+            <summary>
+            a methode that returns the Queue’s type.
+            </summary>
+            <returns> the name of the type </returns>
+        </member>
+    </members>
+</doc>

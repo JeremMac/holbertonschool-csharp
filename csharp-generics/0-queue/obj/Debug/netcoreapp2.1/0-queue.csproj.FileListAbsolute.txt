@@ -9,3 +9,4 @@ C:\Users\macal\Temporaire-csharp\0-queue\bin\Debug\netcoreapp2.1\0-queue.dll
 C:\Users\macal\Temporaire-csharp\0-queue\bin\Debug\netcoreapp2.1\0-queue.pdb
 C:\Users\macal\Temporaire-csharp\0-queue\obj\Debug\netcoreapp2.1\0-queue.dll
 C:\Users\macal\Temporaire-csharp\0-queue\obj\Debug\netcoreapp2.1\0-queue.pdb
+C:\Users\macal\Temporaire-csharp\0-queue\bin\Debug\netcoreapp2.1\0-queue.xml
