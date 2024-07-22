@@ -84,21 +84,33 @@ public class Queue<T>
     /// <returns>Concatanate string of all elements in the queue.</returns>
     public string Concatenate()
     {
-        if (queue.Count == 0)
+        if (this.head == null)
         {
             Console.WriteLine("Queue is empty");
             return null;
         }
 
-        // Vérifier si le type est String ou Char
         if (typeof(T) != typeof(string) && typeof(T) != typeof(char))
         {
             Console.WriteLine("Concatenate() is for a queue of Strings or Chars only.");
             return null;
         }
 
-        // Concaténer les éléments de la queue
-        return string.Join(" ", queue);
+
+        Node current = this.head;
+        string result = "";
+
+        while (current != null)
+        {
+            result += current.value.ToString();
+            if (typeof(T) == typeof(string) && current.next != null)
+            {
+                result += " ";
+            }
+            current = current.next;
+        }
+
+        return result;
     }
 
     /// <summary>
