@@ -1,0 +1,12 @@
+C:\Users\macal\Temporaire-csharp\2-doors\obj\Debug\netcoreapp2.1\2-doors.csprojAssemblyReference.cache
+C:\Users\macal\Temporaire-csharp\2-doors\obj\Debug\netcoreapp2.1\2-doors.csproj.CoreCompileInputs.cache
+C:\Users\macal\Temporaire-csharp\2-doors\obj\Debug\netcoreapp2.1\2-doors.AssemblyInfoInputs.cache
+C:\Users\macal\Temporaire-csharp\2-doors\obj\Debug\netcoreapp2.1\2-doors.AssemblyInfo.cs
+C:\Users\macal\Temporaire-csharp\2-doors\bin\Debug\netcoreapp2.1\2-doors.xml
+C:\Users\macal\Temporaire-csharp\2-doors\bin\Debug\netcoreapp2.1\2-doors.deps.json
+C:\Users\macal\Temporaire-csharp\2-doors\bin\Debug\netcoreapp2.1\2-doors.runtimeconfig.json
+C:\Users\macal\Temporaire-csharp\2-doors\bin\Debug\netcoreapp2.1\2-doors.runtimeconfig.dev.json
+C:\Users\macal\Temporaire-csharp\2-doors\bin\Debug\netcoreapp2.1\2-doors.dll
+C:\Users\macal\Temporaire-csharp\2-doors\bin\Debug\netcoreapp2.1\2-doors.pdb
+C:\Users\macal\Temporaire-csharp\2-doors\obj\Debug\netcoreapp2.1\2-doors.dll
+C:\Users\macal\Temporaire-csharp\2-doors\obj\Debug\netcoreapp2.1\2-doors.pdb

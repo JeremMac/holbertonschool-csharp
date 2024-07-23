@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>2-doors</name>
+    </assembly>
+    <members>
+        <member name="T:Base">
+            <summary>
+            An abstract class that contains the name property.
+            </summary>
+        </member>
+        <member name="P:Base.name">
+            <summary>
+            A public string.
+            </summary>
+        </member>
+        <member name="M:Base.ToString">
+            <summary>
+            Overiden ToString methode.
+            </summary>
+            <returns>A caracter string</returns>
+        </member>
+        <member name="T:Door">
+            <summary>
+            A class that represents a door.
+            </summary>
+        </member>
+        <member name="M:Door.#ctor(System.String)">
+            <summary>
+            Consructor to set the value of door's name.
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:Door.Interact">
+            <summary>
+            A functions that sums an interaction with Door.
+            </summary>
+        </member>
+    </members>
+</doc>
