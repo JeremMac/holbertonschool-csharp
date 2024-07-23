@@ -1,0 +1,142 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Reflection;
+
+/// <summary>
+/// An abstract class that contains the name property.
+/// </summary>
+public abstract class Base
+{
+    /// <summary>
+    /// A public string.
+    /// </summary>
+    public string name { get; set;}
+
+    /// <summary>
+    /// Overiden ToString methode.
+    /// </summary>
+    /// <returns>A caracter string</returns>
+    public override string ToString()
+    {
+        return $"{name} is a {this.GetType().Name}";
+    }
+}
+
+interface IInteractive
+{
+    void Interact();
+}
+
+interface IBreakable
+{
+    int durability { get; set; }
+    void Break();
+}
+
+interface ICollectable
+{
+    bool isCollected { get; set; }
+    void Collect();
+}
+
+/// <summary>
+/// A class that represents a door.
+/// </summary>
+public class Door: Base, IInteractive
+{
+    /// <summary>
+    /// Consructor to set the value of door's name.
+    /// </summary>
+    /// <param name="value"></param>
+    public Door(string value = "Door")
+    {
+        name = value;
+    }
+
+    /// <summary>
+    /// A functions that sums an interaction with Door.
+    /// </summary>
+    public void Interact()
+    {
+        Console.WriteLine($@"You try to open the {name}. It's locked.");
+    }
+}
+
+/// <summary>
+/// A class with all decorations parameters.
+/// </summary>
+public class Decoration: Base, IInteractive, IBreakable
+{
+    /// <summary>
+    /// A boleen that will check the nature of an item.
+    /// </summary>
+    public bool isQuestItem { get; set; }
+
+    /// <summary>
+    /// An int that represents the durability of the items.
+    /// </summary>
+    public int durability { get; set; }
+
+    /// <summary>
+    /// A constructor that will set all parameters to Decoration class.
+    /// </summary>
+    /// <param name="name"></param>
+    /// <param name="durability"></param>
+    /// <param name="isQuestItem"></param>
+    /// <exception cref="ArgumentException"></exception>
+    public Decoration(string name = "Decoration", int durability = 1, bool isQuestItem = false)
+    {
+        if (durability <= 0)
+        {
+            throw new ArgumentException("Durability must be greater than 0");
+        }
+
+        this.name = name;
+
+        this.durability = durability;
+
+        this.isQuestItem = isQuestItem;
+    }
+
+    /// <summary>
+    /// A method that allows interactions between player and Decoration.
+    /// </summary>
+    public void Interact()
+    {
+        if (durability <= 0)
+        {
+            Console.WriteLine($"The {name} has been broken.");
+        }
+
+        if (isQuestItem)
+        {
+            Console.WriteLine($"You look at the {name}. There's a key inside.");
+        }
+
+        if (!isQuestItem && durability > 0)
+        {
+            Console.WriteLine($"You look at the {name}. Not much to see here.");
+        }
+    }
+
+    /// <summary>
+    /// A methode that manage breakable state of a decoration.
+    /// </summary>
+    public void Break()
+    {
+        durability -= 1;
+
+        if (durability > 0)
+        {
+            Console.WriteLine($"You hit the {name}. It cracks.");
+        }
+        if (durability == 0)
+        {
+            Console.WriteLine($"You smash the {name}. What a mess.");
+        }
+        if (durability < 0)
+        {
+            Console.WriteLine($"The {name} is already broken.");
+        }
+    }
+}
