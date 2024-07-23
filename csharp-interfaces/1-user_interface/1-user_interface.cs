@@ -10,7 +10,7 @@ public abstract class Base
     /// <summary>
     /// A public string.
     /// </summary>
-    public string name;
+    public string name { get; set;}
 
     /// <summary>
     /// Overiden ToString methode.
@@ -45,8 +45,6 @@ interface ICollectable
 /// </summary>
 public class TestObject: Base, IInteractive, IBreakable, ICollectable
 {
-    public string name { get; set; }
-    
     /// <summary>
     /// A int that value the durability.
     /// </summary>
