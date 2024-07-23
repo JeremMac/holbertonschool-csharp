@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>0-abstract_thinking</name>
+    </assembly>
+    <members>
+        <member name="T:Base">
+            <summary>
+            An abstract class that contains the name property.
+            </summary>
+        </member>
+        <member name="F:Base.name">
+            <summary>
+            A public string.
+            </summary>
+        </member>
+        <member name="M:Base.ToString">
+            <summary>
+            Overiden ToString methode.
+            </summary>
+            <returns>A caracter string</returns>
+        </member>
+    </members>
+</doc>
