@@ -45,6 +45,8 @@ interface ICollectable
 /// </summary>
 public class TestObject: Base, IInteractive, IBreakable, ICollectable
 {
+    public string name { get; set; }
+    
     /// <summary>
     /// A int that value the durability.
     /// </summary>
