@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>1-user_interface</name>
+    </assembly>
+    <members>
+        <member name="T:Base">
+            <summary>
+            An abstract class that contains the name property.
+            </summary>
+        </member>
+        <member name="F:Base.name">
+            <summary>
+            A public string.
+            </summary>
+        </member>
+        <member name="M:Base.ToString">
+            <summary>
+            Overiden ToString methode.
+            </summary>
+            <returns>A caracter string</returns>
+        </member>
+        <member name="T:TestObject">
+            <summary>
+            A class that nhérite all interfaces and base abstract class.
+            </summary>
+        </member>
+        <member name="P:TestObject.durability">
+            <summary>
+            A int that value the durability.
+            </summary>
+        </member>
+        <member name="P:TestObject.isCollected">
+            <summary>
+            A bool that will determined if collected is true or not.
+            </summary>
+        </member>
+        <member name="M:TestObject.Interact">
+            <summary>
+            A methode that will allow all player interactions.
+            </summary>
+        </member>
+        <member name="M:TestObject.Break">
+            <summary>
+            A methode that will determine a break state or not.
+            </summary>
+        </member>
+        <member name="M:TestObject.Collect">
+            <summary>
+            A method that wil allow to collect items.
+            </summary>
+        </member>
+    </members>
+</doc>
