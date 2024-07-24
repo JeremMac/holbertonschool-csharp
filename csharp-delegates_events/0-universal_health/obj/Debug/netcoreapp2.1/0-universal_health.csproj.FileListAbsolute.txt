@@ -1,0 +1,12 @@
+C:\Users\macal\Temporaire-csharp\0-universal_health\obj\Debug\netcoreapp2.1\0-universal_health.csprojAssemblyReference.cache
+C:\Users\macal\Temporaire-csharp\0-universal_health\obj\Debug\netcoreapp2.1\0-universal_health.csproj.CoreCompileInputs.cache
+C:\Users\macal\Temporaire-csharp\0-universal_health\obj\Debug\netcoreapp2.1\0-universal_health.AssemblyInfoInputs.cache
+C:\Users\macal\Temporaire-csharp\0-universal_health\obj\Debug\netcoreapp2.1\0-universal_health.AssemblyInfo.cs
+C:\Users\macal\Temporaire-csharp\0-universal_health\bin\Debug\netcoreapp2.1\0-universal_health.xml
+C:\Users\macal\Temporaire-csharp\0-universal_health\bin\Debug\netcoreapp2.1\0-universal_health.deps.json
+C:\Users\macal\Temporaire-csharp\0-universal_health\bin\Debug\netcoreapp2.1\0-universal_health.runtimeconfig.json
+C:\Users\macal\Temporaire-csharp\0-universal_health\bin\Debug\netcoreapp2.1\0-universal_health.runtimeconfig.dev.json
+C:\Users\macal\Temporaire-csharp\0-universal_health\bin\Debug\netcoreapp2.1\0-universal_health.dll
+C:\Users\macal\Temporaire-csharp\0-universal_health\bin\Debug\netcoreapp2.1\0-universal_health.pdb
+C:\Users\macal\Temporaire-csharp\0-universal_health\obj\Debug\netcoreapp2.1\0-universal_health.dll
+C:\Users\macal\Temporaire-csharp\0-universal_health\obj\Debug\netcoreapp2.1\0-universal_health.pdb
