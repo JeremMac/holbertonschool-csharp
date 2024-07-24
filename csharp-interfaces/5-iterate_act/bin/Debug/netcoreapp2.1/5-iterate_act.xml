@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>5-iterate_act</name>
+    </assembly>
+    <members>
+        <member name="T:Base">
+            <summary>
+            An abstract class that contains the name property.
+            </summary>
+        </member>
+        <member name="P:Base.name">
+            <summary>
+            A public string.
+            </summary>
+        </member>
+        <member name="M:Base.ToString">
+            <summary>
+            Overiden ToString methode.
+            </summary>
+            <returns>A caracter string</returns>
+        </member>
+        <member name="T:Door">
+            <summary>
+            A class that represents a door.
+            </summary>
+        </member>
+        <member name="M:Door.#ctor(System.String)">
+            <summary>
+            Consructor to set the value of door's name.
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:Door.Interact">
+            <summary>
+            A functions that sums an interaction with Door.
+            </summary>
+        </member>
+        <member name="T:Decoration">
+            <summary>
+            A class with all decorations parameters.
+            </summary>
+        </member>
+        <member name="P:Decoration.isQuestItem">
+            <summary>
+            A boleen that will check the nature of an item.
+            </summary>
+        </member>
+        <member name="P:Decoration.durability">
+            <summary>
+            An int that represents the durability of the items.
+            </summary>
+        </member>
+        <member name="M:Decoration.#ctor(System.String,System.Int32,System.Boolean)">
+            <summary>
+            A constructor that will set all parameters to Decoration class.
+            </summary>
+            <param name="name"></param>
+            <param name="durability"></param>
+            <param name="isQuestItem"></param>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:Decoration.Interact">
+            <summary>
+            A method that allows interactions between player and Decoration.
+            </summary>
+        </member>
+        <member name="M:Decoration.Break">
+            <summary>
+            A methode that manage breakable state of a decoration.
+            </summary>
+        </member>
+        <member name="T:Key">
+            <summary>
+            A class that represent an item key.
+            </summary>
+        </member>
+        <member name="P:Key.isCollected">
+            <summary>
+            a booleen that check if a key is collected or not.
+            </summary>
+        </member>
+        <member name="M:Key.#ctor(System.String,System.Boolean)">
+            <summary>
+            A constructor to set the name and the collected state of class Key.
+            </summary>
+            <param name="name"></param>
+            <param name="isCollected"></param>
+        </member>
+        <member name="M:Key.Collect">
+            <summary>
+            A methode that will allow to collect Key.
+            </summary>
+        </member>
+        <member name="T:RoomObjects">
+            <summary>
+            A class that checks which interface to call.
+            </summary>
+        </member>
+        <member name="M:RoomObjects.IterateAction(System.Collections.Generic.List{Base},System.Type)">
+            <summary>
+            A methode that will iterate through roomObject and check the types of its elements.
+            This mehode will determine wich methode to use based on the interface used.
+            </summary>
+            <param name="roomObjects"></param>
+            <param name="type"></param>
+        </member>
+    </members>
+</doc>
