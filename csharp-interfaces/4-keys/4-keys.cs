@@ -170,11 +170,11 @@ public class Key: Base, ICollectable
         if (!isCollected)
         {
             isCollected = true;
-            Console.WriteLine($"You pick up the {name}");
+            Console.WriteLine($"You pick up the {name}.");
         }
         else
         {
-            Console.WriteLine($"You have already picked up the {name}");
+            Console.WriteLine($"You have already picked up the {name}.");
         }
     }
 }
