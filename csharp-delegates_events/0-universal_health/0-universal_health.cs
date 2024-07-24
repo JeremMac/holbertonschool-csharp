@@ -8,17 +8,17 @@ public class Player
     /// <summary>
     /// A string that holds the name of the Player.
     /// </summary>
-    public string name;
+    private string name;
 
     /// <summary>
     /// A float that represents the max HP of the Player.
     /// </summary>
-    public float maxHp;
+    private float maxHp;
 
     /// <summary>
     /// A float that represents the current HP of the Player.
     /// </summary>
-    public float hp;
+    private float hp;
 
     /// <summary>
     /// A constructor for PLayer class that sets
