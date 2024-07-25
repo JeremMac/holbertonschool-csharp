@@ -196,12 +196,6 @@ public class Player
             Console.WriteLine("Health has reached zero!");
             Console.ResetColor();
         }
-        else
-        {
-            Console.ForegroundColor = ConsoleColor.Red; 
-            Console.WriteLine("Health is low!");
-            Console.ResetColor();
-        }
     }
 
     /// <summary>
