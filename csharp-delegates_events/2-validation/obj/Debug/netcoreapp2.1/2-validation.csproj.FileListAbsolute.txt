@@ -1,0 +1,12 @@
+C:\Users\macal\Temporaire-csharp\2-validation\obj\Debug\netcoreapp2.1\2-validation.csprojAssemblyReference.cache
+C:\Users\macal\Temporaire-csharp\2-validation\obj\Debug\netcoreapp2.1\2-validation.csproj.CoreCompileInputs.cache
+C:\Users\macal\Temporaire-csharp\2-validation\obj\Debug\netcoreapp2.1\2-validation.AssemblyInfoInputs.cache
+C:\Users\macal\Temporaire-csharp\2-validation\obj\Debug\netcoreapp2.1\2-validation.AssemblyInfo.cs
+C:\Users\macal\Temporaire-csharp\2-validation\bin\Debug\netcoreapp2.1\2-validation.xml
+C:\Users\macal\Temporaire-csharp\2-validation\bin\Debug\netcoreapp2.1\2-validation.deps.json
+C:\Users\macal\Temporaire-csharp\2-validation\bin\Debug\netcoreapp2.1\2-validation.runtimeconfig.json
+C:\Users\macal\Temporaire-csharp\2-validation\bin\Debug\netcoreapp2.1\2-validation.runtimeconfig.dev.json
+C:\Users\macal\Temporaire-csharp\2-validation\bin\Debug\netcoreapp2.1\2-validation.dll
+C:\Users\macal\Temporaire-csharp\2-validation\bin\Debug\netcoreapp2.1\2-validation.pdb
+C:\Users\macal\Temporaire-csharp\2-validation\obj\Debug\netcoreapp2.1\2-validation.dll
+C:\Users\macal\Temporaire-csharp\2-validation\obj\Debug\netcoreapp2.1\2-validation.pdb
