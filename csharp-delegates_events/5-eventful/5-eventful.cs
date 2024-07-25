@@ -196,7 +196,7 @@ public class Player
             Console.WriteLine("Health has reached zero!");
             Console.ResetColor();
         }
-        else if (e.currentHp < maxHp / 4 && e.currentHp > 0)
+        else
         {
             Console.ForegroundColor = ConsoleColor.Red; 
             Console.WriteLine("Health is low!");
