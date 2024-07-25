@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>4-check_yourself</name>
+    </assembly>
+    <members>
+        <member name="T:Player">
+            <summary>
+            A class that represents the player.
+            </summary>
+        </member>
+        <member name="F:Player.name">
+            <summary>
+            A string that holds the name of the Player.
+            </summary>
+        </member>
+        <member name="F:Player.maxHp">
+            <summary>
+            A float that represents the max HP of the Player.
+            </summary>
+        </member>
+        <member name="F:Player.hp">
+            <summary>
+            A float that represents the current HP of the Player.
+            </summary>
+        </member>
+        <member name="M:Player.#ctor(System.String,System.Single)">
+            <summary>
+            A constructor for PLayer class that sets
+            HP, and name values.
+            </summary>
+            <param name="name"></param>
+            <param name="maxHp"></param>
+        </member>
+        <member name="M:Player.PrintHealth">
+            <summary>
+            A methode that print the health of the Player class.
+            </summary>
+        </member>
+        <member name="E:Player.HPCheck">
+            <summary>
+            An event that handle CurrentHPArgss envent.
+            </summary>
+        </member>
+        <member name="T:Player.CalculateHealth">
+            <summary>
+            A delegate methode that will call TakeDamage or HealDamage.
+            </summary>
+            <param name="amount"></param>
+        </member>
+        <member name="M:Player.TakeDamage(System.Single)">
+            <summary>
+            Calculate the damage to the player.
+            </summary>
+            <param name="damage"></param>
+        </member>
+        <member name="M:Player.HealDamage(System.Single)">
+            <summary>
+            Calculate the amount of HP healed.
+            </summary>
+            <param name="heal"></param>
+        </member>
+        <member name="M:Player.ValidateHP(System.Single)">
+            <summary>
+            A methode that will validate the value
+            of hp after damage or heal.
+            </summary>
+            <param name="newHp"></param>
+        </member>
+        <member name="M:Player.ApplyModifier(System.Single,Modifier)">
+            <summary>
+            A methode that sets the application of Modifier.
+            </summary>
+            <param name="baseValue"></param>
+            <param name="modifier"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Player.OnHPCheck(CurrentHPArgs)">
+            <summary>
+            Call CurrentHPArgs envent.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="T:Modifier">
+            <summary>
+            A modifier that will set the statuses
+            week , strong or basic.
+            </summary>
+        </member>
+        <member name="F:Modifier.Weak">
+            <summary>
+            A state that will divise baseValue by 2.
+            </summary>
+        </member>
+        <member name="F:Modifier.Base">
+            <summary>
+            The default state of baseValue.
+            </summary>
+        </member>
+        <member name="F:Modifier.Strong">
+            <summary>
+            A state that multiply baseValue by 1.5.
+            </summary>
+        </member>
+        <member name="T:CalculateModifier">
+            <summary>
+            The delegate that will interact with Modifier and ApplyModifier.
+            </summary>
+            <param name="baseValue"></param>
+            <param name="modifier"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CurrentHPArgs">
+            <summary>
+            A class thet sets newHP based on events.
+            </summary>
+        </member>
+        <member name="P:CurrentHPArgs.currentHp">
+            <summary>
+            A float the holds the current Hp value.
+            </summary>
+        </member>
+        <member name="M:CurrentHPArgs.#ctor(System.Single)">
+            <summary>
+            Consructor to set all value for CurrentHPArgs class.
+            </summary>
+            <param name="newHp"></param>
+        </member>
+    </members>
+</doc>
