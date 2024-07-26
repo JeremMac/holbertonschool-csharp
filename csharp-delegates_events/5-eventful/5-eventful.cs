@@ -51,11 +51,6 @@ public class Player
     /// </summary>
     public event EventHandler<CurrentHPArgs> HPCheck;
 
-    /// <summary>
-    /// A delegate methode that will call TakeDamage or HealDamage.
-    /// </summary>
-    /// <param name="amount"></param>
-    public delegate void CalculateHealth(float amount);
 
     /// <summary>
     /// Calculate the damage to the player.
