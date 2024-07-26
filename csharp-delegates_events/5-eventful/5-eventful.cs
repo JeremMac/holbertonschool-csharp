@@ -209,7 +209,7 @@ public class Player
     /// based on the Hp value.
     /// </summary>
     /// <param name="e"></param>
-    public void OnCheckStatus(CurrentHPArgs e)
+    private void OnCheckStatus(CurrentHPArgs e)
     {
         if (e.currentHp < maxHp / 4)
         {
