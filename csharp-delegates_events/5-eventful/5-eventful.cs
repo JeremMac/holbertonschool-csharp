@@ -5,19 +5,10 @@
 /// </summary>
 public class Player
 {
-    /// <summary>
-    /// A string that holds the name of the Player.
-    /// </summary>
     private string name;
 
-    /// <summary>
-    /// A float that represents the max HP of the Player.
-    /// </summary>
     private float maxHp;
 
-    /// <summary>
-    /// A float that represents the current HP of the Player.
-    /// </summary>
     private float hp;
 
     private string status;
