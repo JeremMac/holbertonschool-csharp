@@ -1,0 +1,11 @@
+C:\Users\macal\CsharpModern\InventoryLibrary\bin\Debug\net8.0\InventoryLibrary.deps.json
+C:\Users\macal\CsharpModern\InventoryLibrary\bin\Debug\net8.0\InventoryLibrary.dll
+C:\Users\macal\CsharpModern\InventoryLibrary\bin\Debug\net8.0\InventoryLibrary.pdb
+C:\Users\macal\CsharpModern\InventoryLibrary\obj\Debug\net8.0\InventoryLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\macal\CsharpModern\InventoryLibrary\obj\Debug\net8.0\InventoryLibrary.AssemblyInfoInputs.cache
+C:\Users\macal\CsharpModern\InventoryLibrary\obj\Debug\net8.0\InventoryLibrary.AssemblyInfo.cs
+C:\Users\macal\CsharpModern\InventoryLibrary\obj\Debug\net8.0\InventoryLibrary.csproj.CoreCompileInputs.cache
+C:\Users\macal\CsharpModern\InventoryLibrary\obj\Debug\net8.0\InventoryLibrary.dll
+C:\Users\macal\CsharpModern\InventoryLibrary\obj\Debug\net8.0\refint\InventoryLibrary.dll
+C:\Users\macal\CsharpModern\InventoryLibrary\obj\Debug\net8.0\InventoryLibrary.pdb
+C:\Users\macal\CsharpModern\InventoryLibrary\obj\Debug\net8.0\ref\InventoryLibrary.dll

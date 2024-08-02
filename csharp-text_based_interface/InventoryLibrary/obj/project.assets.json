@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\macal\\CsharpModern\\InventoryManagement\\InventoryLibrary\\InventoryLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\macal\\CsharpModern\\InventoryLibrary\\InventoryLibrary.csproj",
       "projectName": "InventoryLibrary",
-      "projectPath": "C:\\Users\\macal\\CsharpModern\\InventoryManagement\\InventoryLibrary\\InventoryLibrary.csproj",
+      "projectPath": "C:\\Users\\macal\\CsharpModern\\InventoryLibrary\\InventoryLibrary.csproj",
       "packagesPath": "C:\\Users\\macal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\macal\\CsharpModern\\InventoryManagement\\InventoryLibrary\\obj\\",
+      "outputPath": "C:\\Users\\macal\\CsharpModern\\InventoryLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
